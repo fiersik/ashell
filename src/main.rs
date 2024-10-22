@@ -17,6 +17,7 @@ mod password_dialog;
 mod services;
 mod style;
 mod utils;
+mod outputs;
 
 const HEIGHT: u32 = 34;
 
