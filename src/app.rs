@@ -15,7 +15,7 @@ use crate::{
 use flexi_logger::LoggerHandle;
 use iced::{
     daemon::Appearance,
-    event::{listen_raw, listen_with, wayland::Event as WaylandEvent},
+    event::{listen_with, wayland::Event as WaylandEvent},
     widget::{row, Row},
     window::Id,
     Alignment, Color, Element, Length, Subscription, Task, Theme,
